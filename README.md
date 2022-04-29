@@ -30,3 +30,4 @@
 + Using pandas library we export all the informations from the csv and from the webscraping tool to a Data Frame.
 + After this we generate a '.xlsx' file on the 'Output' folder from the data frame using Pandas lib
 # IMDb-RPA
+# IMDb-RPA
