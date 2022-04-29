@@ -40,5 +40,4 @@
 </table>
 
 ## How to run the application:
-#### Install: Python
-#### Run Shell: Pip Install -r requirements.txt
+#### Run the 'run.bat' file.
