@@ -1,9 +1,5 @@
 > Status: ready to homolog ⚠️
-
---All the necessary files libs it's listed in requirements.txt file.
-
---The webdriver.exe it's on the config package.
-
+> 
 # IMDb-RPA
 ### This RPA Solution must open the IMDb Page, get all favorite movies informations enable and genarate an Excel File.
 
@@ -29,3 +25,20 @@
 ## STEP-4 EXPORT_TO_EXCEL
 + Using pandas library we export all the informations from the csv and from the webscraping tool to a Data Frame.
 + After this we generate a '.xlsx' file on the 'Output' folder from the data frame using Pandas lib
+
+
+### Technologies Used:
+<table>
+  <tr>
+  <td>Python</td>
+  <td> ChromeDriver</td>
+  </tr>
+  <td>3.10.0</td>
+  <td>100.0.4896.60</td>
+  <tr>
+  </tr> 
+</table>
+
+## How to run the application:
+#### Install: Python
+#### Run Shell: Pip Install -r requirements.txt
