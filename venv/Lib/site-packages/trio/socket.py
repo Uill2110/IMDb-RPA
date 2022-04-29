@@ -117,7 +117,8 @@ try:
         J1939_PGN_MAX, J1939_PGN_PDU1_MAX, J1939_PGN_REQUEST,
         SCM_J1939_DEST_ADDR, SCM_J1939_DEST_NAME, SCM_J1939_ERRQUEUE,
         SCM_J1939_PRIO, SO_J1939_ERRQUEUE, SO_J1939_FILTER, SO_J1939_PROMISC,
-        SO_J1939_SEND_PRIO, UDPLITE_RECV_CSCOV, UDPLITE_SEND_CSCOV
+        SO_J1939_SEND_PRIO, UDPLITE_RECV_CSCOV, UDPLITE_SEND_CSCOV, IP_RECVTOS,
+        TCP_KEEPALIVE
     )
     # fmt: on
 except ImportError:
@@ -186,18 +187,6 @@ if sys.platform != "win32" or not _t.TYPE_CHECKING:
 
 # get names used by Trio that we define on our own
 from ._socket import IPPROTO_IPV6
-
-# Not defined in all python versions and platforms but sometimes needed
-if not _t.TYPE_CHECKING:
-    try:
-        TCP_NOTSENT_LOWAT
-    except NameError:
-        # Hopefully will show up in 3.7:
-        #   https://github.com/python/cpython/pull/477
-        if sys.platform == "darwin":
-            TCP_NOTSENT_LOWAT = 0x201
-        elif sys.platform == "linux":
-            TCP_NOTSENT_LOWAT = 25
 
 if _t.TYPE_CHECKING:
     IP_BIND_ADDRESS_NO_PORT: int

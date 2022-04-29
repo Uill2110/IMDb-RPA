@@ -1,6 +1,4 @@
-from types import NoneType
 from app.config import *
-import glob
 import pandas as pd
 from app.models.requests import get_film_data
 

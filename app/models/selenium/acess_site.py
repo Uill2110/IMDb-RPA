@@ -1,8 +1,7 @@
 import glob
 import os
-from time import sleep
 import time
-from app.config import DIREC, DOWNLOAD_FILE
+from app.config import DOWNLOAD_FILE
 from app.models.selenium import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
