@@ -1,6 +1,8 @@
-> Status: ready to homolog ⚠️
-> 
+
 # IMDb-RPA
+
+> Status: ready to homolog ⚠️
+
 ### This RPA Solution must open the IMDb Page, get all favorite movies informations enable and genarate an Excel File.
 
 ## STEP-0 RUN_THE_PROGRAM
@@ -40,5 +42,4 @@
 </table>
 
 ## How to run the application:
-#### Install: Python
-#### Run Shell: Pip Install -r requirements.txt
+#### Run the 'run.bat' file.
