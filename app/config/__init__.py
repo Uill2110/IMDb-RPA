@@ -19,7 +19,6 @@ COLS2 = ['Portuguese Title', 'Original Title',
          'Directors' , 'Actors']
 
 
-
 def CreateFolder(folder,replace=False):
         if not os.path.isdir(folder):
                 os.mkdir(folder)
