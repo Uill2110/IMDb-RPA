@@ -34,5 +34,5 @@ class dataExport:
         self.dataframe['URL Image']  = img 
     
         
-        pd.DataFrame((self.dataframe.rename(columns=COLS)), columns=COLS2).to_excel(FINAL_REPORT)
+        pd.DataFrame((self.dataframe.rename(columns=COLS)), columns=COLS2).to_excel(FINAL_REPORT+r'\filmes.xlsx')
         
