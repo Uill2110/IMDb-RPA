@@ -1,5 +1,8 @@
 > Status: ready to homolog ⚠️
 
+--All the necessary files libs it's listed in requirements.txt file.
+--The webdriver.exe it's on the config package.
+
 # IMDb-RPA
 ### This RPA Solution must open the IMDb Page, get all favorite movies informations enable and genarate an Excel File.
 
