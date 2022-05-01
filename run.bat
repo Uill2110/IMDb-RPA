@@ -1,6 +1,6 @@
 @echo off
 echo starting...
-set argFile=%1
+set argFle=%1
 IF EXIST venv\Scripts\activate (
     echo activating virtual environment
     venv\Scripts\activate

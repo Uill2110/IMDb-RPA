@@ -42,4 +42,5 @@
 </table>
 
 ## How to run the application:
-#### Run the 'run.bat' file.
+#### Install the libs using requirements.txt
+#### Open the 'run.py' file
