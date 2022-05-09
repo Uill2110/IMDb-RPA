@@ -33,10 +33,8 @@
 <table>
   <tr>
   <td>Python</td>
-  <td> ChromeDriver</td>
   </tr>
   <td>3.10.0</td>
-  <td>100.0.4896.60</td>
   <tr>
   </tr> 
 </table>
