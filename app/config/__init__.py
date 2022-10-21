@@ -11,10 +11,10 @@ CHROMEDRIVER = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 DOWNLOAD_FILE = fr'C:\Users\{os.getlogin()}\Downloads\WATCHLIST.csv'
 FINAL_REPORT = fr'Output'
 
-LOGIN = 'wdamasceno58@gmail.com'
-PWD = r'willian.21'
+LOGIN = 'yemapen969@ilusale.com'
+PWD = r'12345678'
 URL = 'https://www.imdb.com/'
-FAV_URL = "https://www.imdb.com/user/ur152557731/watchlist?ref_=nv_usr_wl"
+FAV_URL = "https://www.imdb.com/user/ur157959375/watchlist?ref_=nv_usr_wl"
 
 COLS = {'Title': 'Original Title', 
         'Year': 'Movie Year'}
