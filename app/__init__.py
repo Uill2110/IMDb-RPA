@@ -3,7 +3,7 @@ from app.config import *
 from app.models.pandas import dataExport
 
 def main():
-    imdb = getCsvFile(CHROMEDRIVER, URL , LOGIN, PWD)
+    imdb = getCsvFile(CHROMEDRIVER, URL , LOGIN, PWD, FAV_URL)
     
     imdb.site()
     
